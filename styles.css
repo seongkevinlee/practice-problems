@@ -1,0 +1,4 @@
+.answer:hover {
+  font-size: 3rem;
+  transition: 1s ease-in;
+}
