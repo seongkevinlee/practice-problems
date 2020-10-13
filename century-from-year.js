@@ -15,10 +15,10 @@ function centuryFromYear(year) {
   }
 }
 
-console.log(centuryFromYear(1905)); //expected output: 20
-console.log(centuryFromYear(1700)); //expected output: 17
-console.log(centuryFromYear(1988)); //expected output: 20
-console.log(centuryFromYear(2000)); //expected output: 20
-console.log(centuryFromYear(2001)); //expected output: 21
-console.log(centuryFromYear(200)); //expected output: 2
-console.log(centuryFromYear(374)); //expected output: 4
+console.log("expected output: 20 | actual output: " + centuryFromYear(1905));
+console.log("expected output: 17 | actual output: " + centuryFromYear(1700));
+console.log("expected output: 20 | actual output: " + centuryFromYear(1988));
+console.log("expected output: 20 | actual output: " + centuryFromYear(2000));
+console.log("expected output: 21 | actual output: " + centuryFromYear(2001));
+console.log("expected output: 2 | actual output: " + centuryFromYear(200));
+console.log("expected output: 4 | actual output: " + centuryFromYear(374));
