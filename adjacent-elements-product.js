@@ -50,3 +50,18 @@ console.log(
   "expected output: -12 | actual output: " +
     adjacentElementsProduct([-23, 4, -3, 8, -12])
 );
+
+//? More solutions
+// function adjacentElementsProduct(arr) {
+//     return Math.max(...arr.slice(1).map((x,i)=>[x*arr[i]]))
+//   }
+
+//   function adjacentElementsProduct(inputArray) {
+//     var prod = inputArray[0] * inputArray[1];
+
+//     for (var i = 1; i<inputArray.length - 1;i++) {
+//         prod = Math.max(prod, inputArray[i] * inputArray[i+1]);
+//     }
+
+//     return prod
+// }
