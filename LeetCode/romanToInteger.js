@@ -46,7 +46,6 @@ var romanToInt = function (s) {
   decrementors.set("I", ["V", "X"]);
   decrementors.set("X", ["L", "C"]);
   decrementors.set("C", ["D", "M"]);
-  console.log("decrementors:", decrementors);
   let val = 0;
   for (let i = 0; i < s.length; i++) {
     if (decrementors.has(s[i]) && decrementors.get(s[i]).includes(s[i + 1])) {
