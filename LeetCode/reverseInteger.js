@@ -27,4 +27,3 @@ console.log(reverse(120));
 console.log(reverse(-123));
 console.log(reverse(1534236469));
 console.log(reverse(-8463847412));
-console.log(-2147483648 < -999999999);
