@@ -1,2 +1,5 @@
 # practice-problems
-Challenges from various Coding Challenge websites
+Challenges from various Coding Challenge websites.
+
+* Edabits
+* Code Signal
