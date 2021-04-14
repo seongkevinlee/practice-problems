@@ -24,11 +24,15 @@ function plusMinus(arr) {
     if (e === 0) zero++;
   });
 
-  return `
-${(pos / length).toFixed(6)}
-${(neg / length).toFixed(6)}
-${(zero / length).toFixed(6)}
-`;
+  //   return `
+  // ${(pos / length).toFixed(6)}
+  // ${(neg / length).toFixed(6)}
+  // ${(zero / length).toFixed(6)}
+  // `;
+
+  console.log((pos / length).toFixed(6));
+  console.log((neg / length).toFixed(6));
+  console.log((zero / length).toFixed(6));
 }
 
 console.log(plusMinus([-4, 3, -9, 0, 4, 1]));
